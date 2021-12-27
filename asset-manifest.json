@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/JeremiahDMoore/crypto-dashboard.git/static/css/main.24dd9123.chunk.css",
+    "main.js": "/JeremiahDMoore/crypto-dashboard.git/static/js/main.1eb96845.chunk.js",
+    "main.js.map": "/JeremiahDMoore/crypto-dashboard.git/static/js/main.1eb96845.chunk.js.map",
+    "runtime-main.js": "/JeremiahDMoore/crypto-dashboard.git/static/js/runtime-main.a8e71c61.js",
+    "runtime-main.js.map": "/JeremiahDMoore/crypto-dashboard.git/static/js/runtime-main.a8e71c61.js.map",
+    "static/js/2.7a2007a2.chunk.js": "/JeremiahDMoore/crypto-dashboard.git/static/js/2.7a2007a2.chunk.js",
+    "static/js/2.7a2007a2.chunk.js.map": "/JeremiahDMoore/crypto-dashboard.git/static/js/2.7a2007a2.chunk.js.map",
+    "index.html": "/JeremiahDMoore/crypto-dashboard.git/index.html",
+    "static/css/main.24dd9123.chunk.css.map": "/JeremiahDMoore/crypto-dashboard.git/static/css/main.24dd9123.chunk.css.map",
+    "static/js/2.7a2007a2.chunk.js.LICENSE.txt": "/JeremiahDMoore/crypto-dashboard.git/static/js/2.7a2007a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8e71c61.js",
+    "static/js/2.7a2007a2.chunk.js",
+    "static/css/main.24dd9123.chunk.css",
+    "static/js/main.1eb96845.chunk.js"
+  ]
+}
