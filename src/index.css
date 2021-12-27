@@ -1,4 +1,5 @@
 body {
+  background-color: #383e65;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,172 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.news-feed {
+  display: flex;
+  flex-direction: column;
+  text-shadow: #383e65 1px 1px 1px;
+  color: white;
+  padding: 2%;
+  background-color: #ff6e27;
+  background-image: linear-gradient(180deg, #fbf665 0%, #ff6e27 100%); 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
+  
+}
+.currency-converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-shadow: #383e65 1px 1px 1px;
+  color: white;
+  padding: 5%;
+  background-color: #6287f8;
+  background-image: linear-gradient(180deg, #6287f8 0%, #383e65 100%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+ 
+}
+.exchange-rate {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: white;
+  padding: 5%;
+}
+.convert-button {
+  margin-left: 30%;
+  background-color: #fbf665;
+  background-image: linear-gradient(160deg, #fbf665 0%, #ff6e27 100%);
+  color: white;
+  text-shadow: #383e65 1px 1px 1px;
+  border: white 2px solid;
+  padding: 10px 40px 10px 40px;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.resources-area {
+  text-shadow: #383e65 1px 1px 1px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  
+}
+.note-area {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+/* unvisited link */
+a:link {
+  /* color: #fbf665; */
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: #73fffe;
+  /* color: #ff6e27; */
+}
+
+/* mouse over link */
+a:hover {
+  color: #fbf665;
+}
+
+/* selected link */
+a:active {
+  color: #6287f8;
+}
+button:hover {
+  background-color: #fbf665;
+  background-image: linear-gradient(250deg, #fbf665 0%, #ff6e27 100%);
+  color: white;
+  text-shadow: #383e65 1px 1px 1px;
+  border: white 2px solid;
+  padding: 10px 40px 10px 40px;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.ticker-wrap {
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  background-color: rgba(#000, 0.9); 
+  padding-left: 100%;
+  box-sizing: content-box;
+}
+  .ticker {
+
+    display: inline-block;
+    height: 4rem;
+    line-height: 4rem;  
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+
+    -webkit-animation-iteration-count: infinite; 
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+   -webkit-animation-name: ticker;
+           animation-name: ticker;
+    -webkit-animation-duration: 30s;
+            animation-duration: 30s;
+
+}
+
+.ticker__item {
+
+  display: inline-block;
+
+  padding: 0 2rem;
+  font-size: 2rem;
+  color: white;   
+
 }
