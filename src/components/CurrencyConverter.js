@@ -39,8 +39,7 @@ const CurrencyConverter = () => {
       <div className="currency-converter">
         <h2>Crypto Converter</h2>
         <div className="input-box">
-           
-
+          
         <table>
             <tbody>
                 <tr>
