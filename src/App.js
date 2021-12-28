@@ -3,7 +3,7 @@ import NewsFeed from "./components/NewsFeed"
 import CurrencyConverter from './components/CurrencyConverter';
 import Resources from "./components/Resources";
 
-const nutrag = "No FOMO YOLO Yeets on shitcoins .. BTC is king"
+const nutrag = "No FOMO, No YOLO, No Yeets on shitcoins .. DYOR !!!"
 
 const App = () => {
 
@@ -11,7 +11,7 @@ const App = () => {
     <div className="app">
       <div class="ticker-wrap">
         <div class="ticker">
-          <div class="ticker__item">{nutrag}.</div>
+          <div class="ticker__item">{nutrag}</div>
           
         </div>
       </div>
