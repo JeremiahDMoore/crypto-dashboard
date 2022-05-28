@@ -3,11 +3,8 @@ const Resources = () => {
 
     return (
       <div className="resources-area">       
-        <div className="note-area">
-<textarea rows="20" cols="50" placeholder="< Scratch Pad >">     
-     </textarea>
-      </div>        
-        <div>
+        
+        <div className="res-area">Resources:
             <a href="https://messari.io/" rel = "noreferrer" target = "_blank">
               <p><h3>Messari</h3></p></a>
             <a href="https://www.coingecko.com/en" rel = "noreferrer" target = "_blank"><p><h3>CoinGecko</h3></p></a>

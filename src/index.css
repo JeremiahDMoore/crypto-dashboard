@@ -70,7 +70,7 @@ code {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  margin-left: 5%;
   
 }
 .note-area {
@@ -78,7 +78,7 @@ code {
   flex: 1;
   flex-direction: column;
   align-items: center;
-  padding: 0px 50px 10px 10px;
+  margin-left: 5%;
 }
 /* unvisited link */
 a:link {
@@ -177,6 +177,7 @@ button:hover {
 
   padding: 0 2rem;
   font-size: 2rem;
-  color: white;   
+  color: yellow;
+  text-shadow: #000 1px 1px 1px;
 
 }
