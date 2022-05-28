@@ -4,17 +4,16 @@ import axios from "axios"
 const NewsFeed = () => {
     const [articles, setArticles] = useState(null);
 
-
     useEffect(() => {
         
-const options = {
-  method: 'GET',
-  url: 'https://crypto-news-live.p.rapidapi.com/news',
-  headers: {
-    'x-rapidapi-host': 'crypto-news-live.p.rapidapi.com',
-    'x-rapidapi-key': '969c3e8ec3mshb1cce8f14d813cbp192f32jsnf36121c3f2dc'
-  }
-}
+      const options = {
+        method: 'GET',
+        url: 'https://crypto-news-live3.p.rapidapi.com/news',
+        headers: {
+          'X-RapidAPI-Host': 'crypto-news-live3.p.rapidapi.com',
+          'X-RapidAPI-Key': '14e6db2ea2mshd3417466d04fac6p1ac271jsnc70a82dde267'
+        }
+      };
 
 axios.request(options).then((response) => {
 	console.log(response.data)
@@ -23,7 +22,7 @@ axios.request(options).then((response) => {
 	console.error(error)
 });
     }, [])
-    const first7Articles = articles ? articles.slice(62, 69) : null;
+    const first7Articles = articles ? articles.slice(10, 17) : null;
 
     return (
       <div className="news-feed">

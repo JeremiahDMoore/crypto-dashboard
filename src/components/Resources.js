@@ -4,7 +4,7 @@ const Resources = () => {
     return (
       <div className="resources-area">       
         <div className="note-area">
-<textarea rows="25" cols="50" placeholder="< Scratch Pad >">     
+<textarea rows="20" cols="50" placeholder="< Scratch Pad >">     
      </textarea>
       </div>        
         <div>

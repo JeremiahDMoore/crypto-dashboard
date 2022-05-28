@@ -43,7 +43,20 @@ const CurrencyConverter = () => {
         <table>
             <tbody>
                 <tr>
-                    <td>Currency 1</td>
+                    <td>From:</td>
+                    
+                    <td>
+                        <select
+                            value={chosenPrimaryCurrency}
+                            name="currency-option-1"
+                            className="currency-options"
+                            onChange={(e) => setChosenPrimaryCurrency(e.target.value)}                                                      
+                        
+                        >  
+                         {currencies.map((currency, _index) => (<option key={_index}>{currency}</option>))}
+
+                        </select>
+                    </td>
                     <td>
                         <input
                             type="number"
@@ -52,29 +65,9 @@ const CurrencyConverter = () => {
                             onChange={(e) => setAmount(e.target.value)}
                         />
                     </td>
-                    <td>
-                        <select
-                            value={chosenPrimaryCurrency}
-                            name="currency-option-1"
-                            className="currency-options"
-                            onChange={(e) => setChosenPrimaryCurrency(e.target.value)}                                                        
-                        
-                        >  
-                         {currencies.map((currency, _index) => (<option key={_index}>{currency}</option>))}
-
-                        </select>
-                    </td>
                 </tr>
                 <tr>
-                    <td>Currency 2</td>
-                    <td>
-                        <input
-                            
-                            name="currency-amount-2"
-                            value={result}
-                            disabled={true}
-                        />
-                    </td>
+                    <td>To:</td>
                     <td>
                         <select
                             value={chosenSecondaryCurrency}
@@ -88,6 +81,15 @@ const CurrencyConverter = () => {
 
                         </select>
                     </td>
+                    <td>
+                        <input
+                            
+                            name="currency-amount-2"
+                            value={result}
+                            disabled={true}
+                        />
+                    </td>
+                    
                 </tr>
             </tbody>
         </table>
