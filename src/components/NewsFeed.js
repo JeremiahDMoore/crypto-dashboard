@@ -29,7 +29,7 @@ axios.request(options).then((response) => {
         
         <h2>Top Stories</h2>
         {first7Articles?.map((article, _index) => (
-        <div key={_index}>
+        <div key={_index}  >
             <a href={article.url}><p>{article.title}<br></br>{article.date}</p></a>
         </div>))}
 

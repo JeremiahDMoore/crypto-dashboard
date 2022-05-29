@@ -38,13 +38,11 @@ const CurrencyConverter = () => {
     return (
       <div className="currency-converter">
         <h2>Crypto Converter</h2>
-        <div className="input-box">
-          
+        <div className="input-box">          
         <table>
             <tbody>
                 <tr>
-                    <td>From:</td>
-                    
+                    <td>From:</td>                    
                     <td>
                         <select
                             value={chosenPrimaryCurrency}
