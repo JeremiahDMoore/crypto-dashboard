@@ -7,8 +7,7 @@
 ### Link to working project:
 https://jeremiahdmoore.github.io/crypto-dashboard/
 
-To run locally:
-```
+To run locally:<br>
 
 ```
 npm install
@@ -21,4 +20,4 @@ npm start
 <li>react-dom</li>
 <li>react-scripts</li>
 <li>web-vitals</li>
-</ul>
+
