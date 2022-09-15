@@ -7,14 +7,18 @@
 ### Link to working project:
 https://jeremiahdmoore.github.io/crypto-dashboard/
 
+To run locally:
 ```
-npm install
-npm start    
 
 ```
-<ul>Dev Dependencies:
+npm install
+npm start
+
+```
+<ul>Dev Dependencies:<br>
 <li>axios</li>
 <li>react</li>
 <li>react-dom</li>
 <li>react-scripts</li>
-<li>web-vitals<li>
+<li>web-vitals</li>
+</ul>
