@@ -3,7 +3,7 @@ const Resources = () => {
 
     return (
       <div className="resources-area">       
-        
+        Resource Links:
         <div className="res-area">
             <a href="https://messari.io/" rel = "noreferrer" target = "_blank">
               <p><h3>Messari</h3></p></a>
