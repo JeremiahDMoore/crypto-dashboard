@@ -12,7 +12,6 @@ To run locally:<br>
 ```
 npm install
 npm start
-
 ```
 <ul>Dev Dependencies:<br>
 <li>axios</li>

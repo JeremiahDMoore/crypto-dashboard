@@ -1,6 +1,9 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import axios from "axios"
+
+require('dotenv').config()
+
 const NewsFeed = () => {
     const [articles, setArticles] = useState(null);
 
@@ -11,7 +14,7 @@ const NewsFeed = () => {
         url: 'https://crypto-news-live3.p.rapidapi.com/news',
         headers: {
           'X-RapidAPI-Host': 'crypto-news-live3.p.rapidapi.com',
-          'X-RapidAPI-Key': '14e6db2ea2mshd3417466d04fac6p1ac271jsnc70a82dde267'
+          'X-RapidAPI-Key': process.env.REACT_APP_NEWS_FEED_KEY
         }
       };
 

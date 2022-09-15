@@ -3,6 +3,8 @@ import { useState } from "react"
 import axios from "axios"
 import ExchangeRate from "./ExchangeRate"
 
+require('dotenv').config()
+
 const CurrencyConverter = () => {
     const currencies = ['BTC', 'ETH', 'MANA', 'ALGO', 'SAND', 'FTT', 'SOL', 'USDC']
     const currencies_two = ['USD', 'EUR', 'BTC', 'ETH', 'MANA', 'ALGO', 'SAND', 'FTT', 'SOL']
@@ -20,7 +22,7 @@ const CurrencyConverter = () => {
             params: {from_currency: chosenPrimaryCurrency, function: 'CURRENCY_EXCHANGE_RATE', to_currency: chosenSecondaryCurrency},
             headers: {
                 'x-rapidapi-host': 'alpha-vantage.p.rapidapi.com',
-                'x-rapidapi-key': '969c3e8ec3mshb1cce8f14d813cbp192f32jsnf36121c3f2dc'
+                'x-rapidapi-key': process.env.REACT_APP_CURRENCY_CONVERTER_KEY
             }
         }
 
