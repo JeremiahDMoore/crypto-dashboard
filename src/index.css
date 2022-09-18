@@ -77,11 +77,11 @@ code {
   margin-left: 30%;
   background-color: #f3c130 ;
   /* background-image: linear-gradient(160deg, #fbcd02 0%, #ff6e27 100%); */
-  color: white;
+  color: #414a6b;
   text-shadow: 1px 1px 2px #383e6585;
   border: #f3c130 2px solid;
   padding: 10px 40px 10px 40px;
-  border-radius: 16px;
+  border-radius: 999px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -101,26 +101,28 @@ code {
   margin-left: 5%;
 }
 a {
-  color: white;
+  color: #414a6b ;
   text-decoration: none;
   text-shadow: 1px 1px 2px #383e6585;
 }
 /* unvisited link */
 a:link {
   /* color: #fbf665; */
-  color: white;
+  color: #414a6b;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #2649c5;
+  color: #414a6b ;
   /* color: #ff6e27; */
 }
 
 /* mouse over link */
 a:hover {
-  color: #ff5851 ;
+  color: #6287f8 ;
+  text-decoration: underline;
+
 }
 .news-feed-elements {
   padding: 2%;
@@ -150,7 +152,6 @@ button:hover {
   text-shadow: 1px 1px 2px #383e6585;
   border: #ff5851 2px solid;
   padding: 10px 40px 10px 40px;
-  border-radius: 16px;
   font-weight: bold;
   cursor: pointer;
 }

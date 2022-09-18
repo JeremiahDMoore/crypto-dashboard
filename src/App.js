@@ -17,8 +17,8 @@ const App = () => {
       </div>
       <NewsFeed />
       <CurrencyConverter />
-      <Resources />
-      
+      <Resources />      
+     
     </div>
   )
 }
