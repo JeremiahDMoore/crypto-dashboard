@@ -1,3 +1,5 @@
+
+
 body { 
   background-color: #383e65;
   margin: 0;
@@ -26,6 +28,8 @@ code {
 .news-feed {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  min-width: 200px;
   text-shadow: #383e65 1px 1px 2px;
   color: white;
   padding: 2%;
@@ -198,7 +202,7 @@ button:hover {
 
 }
 /* added 5-28-22*/
-.bottom-radious {
+.bottom-radius {
   border-radius: 0px 0px 40px 40px;
 }
 
@@ -211,4 +215,29 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 780px) {
+  .ticker__item {
+    display: inline-block;  
+    padding: 0 2rem;
+    font-size: 2rem;
+    color: blue;
+    text-shadow: #00000018 1px 1px 1px;  
+  }
+  .currency-converter {
+    height: min-content;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .resources-area {
+    margin-top: 2%;
+    display: block;
+    align-items: center;
+    height: min-content;
+  }
+  .app {
+    display: block;
+    padding: 3%;
+   
+  }
 }

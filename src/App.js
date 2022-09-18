@@ -9,9 +9,9 @@ const App = () => {
 
   return (
     <div className="app">
-      <div class="ticker-wrap">
-        <div class="ticker">
-          <div class="ticker__item">{marquee}</div>
+      <div className="ticker-wrap">
+        <div className="ticker">
+          <div className="ticker__item">{marquee}</div>
           
         </div>
       </div>
