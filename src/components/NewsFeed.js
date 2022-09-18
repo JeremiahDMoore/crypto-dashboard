@@ -25,15 +25,15 @@ axios.request(options).then((response) => {
 	console.error(error)
 });
     }, [])
-    const first7Articles = articles ? articles.slice(10, 17) : null;
+    const first7Articles = articles ? articles.slice(1, 100) : null;
     // added target="_blank" to open links in new tab
     return (
       <div className="news-feed">
+        <h2>Today's Top 100</h2>
         <div className="news-feed-elements">        
-        <h2>Top Stories</h2>
         {first7Articles?.map((article, _index) => (
         <div key={_index}  > 
-            <a href={article.url} target="_blank" rel="noreferrer"><p>{article.title}<br></br>{article.date}</p></a>
+            <a href={article.url} target="_blank" rel="noreferrer"><p>{_index + 1}. {article.title}<br></br>{article.date}</p></a>
         </div>))}
         </div>
       </div>

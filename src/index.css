@@ -1,4 +1,32 @@
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #6b6b6b #414a6b00;
+  }
 
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+    border-radius: 8px;
+    background: #414a6b00;
+
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #414a6b00;
+    border-radius: 8px;
+
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    border-radius: 8px;
+    border: 3px none #ffffff00;
+  }
+  ::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0);
+  }
 
 body { 
   background-color: #1c1b20 ;
@@ -12,6 +40,7 @@ body {
 
 
 h2 {
+  margin-left: 2%;
   text-shadow: 1px 1px 2px #383e6585;
 }
 
@@ -31,10 +60,12 @@ code {
   flex-direction: column;
   flex: 1;
   min-width: 200px;
+  max-height: 75vh;
   text-shadow: 1px 1px 2px #383e6585;
   color: white;
   padding: 2%;
   margin-left: 2%;
+  margin-right: 11px;
   border-radius: 16px;
   background-color: #414a6b ;
   /* background-image: linear-gradient(180deg, #6287f8 0%, #383e65 100%); */
@@ -48,12 +79,16 @@ code {
   text-shadow: 1px 1px 2px #383e6585;
   color: white;
   padding: 5%;
+  overflow: auto;
   margin-left: 1%;
   margin-right: 2%;
   border-radius: 16px;
   background-color: #414a6b ;
   /* background-image: linear-gradient(180deg, #6287f8 0%, #383e65 100%); */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.input-box {
+  max-width: fit-content;
 }
 .app {
   display: flex;
@@ -121,6 +156,9 @@ a:hover {
 }
 .news-feed-elements {
   padding: 2%;
+  border: #1c1b202f 1px solid;
+  overflow: scroll;
+
 }
 
 /* selected link */
