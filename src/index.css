@@ -36,12 +36,9 @@ code {
   padding: 2%;
   margin-left: 2%;
   border-radius: 16px;
-  background-color: #f3c130 ;
-  /* background-image: linear-gradient(180deg, #d3cd0f 0%, #ff6e27 100%);  */
+  background-color: #414a6b ;
+  /* background-image: linear-gradient(180deg, #6287f8 0%, #383e65 100%); */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
-
-  
 }
 .currency-converter {
   display: flex;
@@ -57,8 +54,6 @@ code {
   background-color: #414a6b ;
   /* background-image: linear-gradient(180deg, #6287f8 0%, #383e65 100%); */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
-
 }
 .app {
   display: flex;
@@ -101,27 +96,27 @@ code {
   margin-left: 5%;
 }
 a {
-  color: #414a6b ;
+  color: #f3c130  ;
   text-decoration: none;
   text-shadow: 1px 1px 2px #383e6585;
 }
 /* unvisited link */
 a:link {
   /* color: #fbf665; */
-  color: #414a6b;
+  color: #fff ;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #414a6b ;
+  color: #f3c130 ;
   /* color: #ff6e27; */
 }
 
 /* mouse over link */
 a:hover {
-  color: #6287f8 ;
-  text-decoration: underline;
+  color: #ff5851 ;
+  /* text-decoration: underline; */
 
 }
 .news-feed-elements {
