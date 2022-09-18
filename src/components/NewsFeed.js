@@ -3,7 +3,7 @@ import { useState } from "react"
 import axios from "axios"
 
 require('dotenv').config()
-
+// gets data from newsfeed api
 const NewsFeed = () => {
     const [articles, setArticles] = useState(null);
 
@@ -33,7 +33,7 @@ axios.request(options).then((response) => {
         <h2>Top Stories</h2>
         {first7Articles?.map((article, _index) => (
         <div key={_index}  >
-            <a href={article.url}><p>{article.title}<br></br>{article.date}</p></a>
+            <a href={article.url} target="_blank" rel="noreferrer"><p>{article.title}<br></br>{article.date}</p></a>
         </div>))}
 
       </div>
