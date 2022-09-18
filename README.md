@@ -2,7 +2,7 @@
 ## Simple tool for researching crypto currencies
 <p>Simple web app for researching cryptocurrencies. Links to news and other resources for you to DYOR. Marquee at the bottom to gently remind you to be a smart investor. Top stories of the day in the crypto space, cryptocurrency converter using real time prices. Resource links to graphs, charts, event calendar, etc.</p>
 
-<p>I plan on expanding this project to add more functionality in the future.</p>
+<p>Made with Node, React, Axios. There is no database connected and no user data is stored. I plan on expanding this project to add more functionality in the future.</p>
 
 ### Link to working project:
 https://jeremiahdmoore.github.io/crypto-dashboard/

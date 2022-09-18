@@ -2,7 +2,8 @@
 const Resources = () => {
 
     return (
-      <div className="resources-area">       
+      <div className="resources-area">  
+         
         Resource Links:
         <div className="res-area">
             <a href="https://messari.io/" rel = "noreferrer" target = "_blank">
