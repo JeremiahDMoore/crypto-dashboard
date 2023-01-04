@@ -4,7 +4,7 @@ import CurrencyConverter from './components/CurrencyConverter';
 import Resources from "./components/Resources";
 // import Ticker from "./components/Ticker"
 // marquee for ticker or reminder, quote, etc.
-const marquee = "Portfolio and LogIn coming soon!"
+const marquee = "Login, Portfolio and more Crypto support coming soon!"
 
 const App = () => {
 

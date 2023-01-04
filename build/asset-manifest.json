@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/crypto-dashboard/static/css/main.bbbb404c.chunk.css",
-    "main.js": "/crypto-dashboard/static/js/main.6f949265.chunk.js",
-    "main.js.map": "/crypto-dashboard/static/js/main.6f949265.chunk.js.map",
+    "main.js": "/crypto-dashboard/static/js/main.5eb6505d.chunk.js",
+    "main.js.map": "/crypto-dashboard/static/js/main.5eb6505d.chunk.js.map",
     "runtime-main.js": "/crypto-dashboard/static/js/runtime-main.00537307.js",
     "runtime-main.js.map": "/crypto-dashboard/static/js/runtime-main.00537307.js.map",
-    "static/js/2.ba93115b.chunk.js": "/crypto-dashboard/static/js/2.ba93115b.chunk.js",
-    "static/js/2.ba93115b.chunk.js.map": "/crypto-dashboard/static/js/2.ba93115b.chunk.js.map",
+    "static/js/2.44657e99.chunk.js": "/crypto-dashboard/static/js/2.44657e99.chunk.js",
+    "static/js/2.44657e99.chunk.js.map": "/crypto-dashboard/static/js/2.44657e99.chunk.js.map",
     "index.html": "/crypto-dashboard/index.html",
     "static/css/main.bbbb404c.chunk.css.map": "/crypto-dashboard/static/css/main.bbbb404c.chunk.css.map",
-    "static/js/2.ba93115b.chunk.js.LICENSE.txt": "/crypto-dashboard/static/js/2.ba93115b.chunk.js.LICENSE.txt"
+    "static/js/2.44657e99.chunk.js.LICENSE.txt": "/crypto-dashboard/static/js/2.44657e99.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.00537307.js",
-    "static/js/2.ba93115b.chunk.js",
+    "static/js/2.44657e99.chunk.js",
     "static/css/main.bbbb404c.chunk.css",
-    "static/js/main.6f949265.chunk.js"
+    "static/js/main.5eb6505d.chunk.js"
   ]
 }
