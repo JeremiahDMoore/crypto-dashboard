@@ -25,7 +25,7 @@ const NewsFeed = () => {
     });
   }, []);
 
-  const first7Articles = articles ? articles.slice(0, 24) : null;
+  const first7Articles = articles ? articles.slice(0, 25) : null;
 
   return (
     <div className="news-feed">
