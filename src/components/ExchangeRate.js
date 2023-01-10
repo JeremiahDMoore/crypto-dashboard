@@ -1,3 +1,4 @@
+import React from 'react';
 
 const ExchangeRate = ({exchangeRate, chosenPrimaryCurrency, chosenSecondaryCurrency}) => {
     return (
